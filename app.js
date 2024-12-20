@@ -26,7 +26,7 @@ const drawDots = (mousePosition = null) => {
         ctx.arc(dot[i].x, dot[i].y, dot[i].size, 0, Math.PI * 2); // Draw a full circle
         ctx.fillStyle = dot[i].color; // Set the fill color
         ctx.fill(); // Fill the circle
-        ctx.strokeStyle = "black"; // Set the stroke color
+        ctx.strokeStyle = "red"; // Set the stroke color
         ctx.lineWidth = 2; // Set the stroke width
         ctx.stroke(); // Apply the stroke
     }
